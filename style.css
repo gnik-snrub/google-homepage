@@ -1,0 +1,52 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: auto;
+    transform: translateY(50%);
+}
+
+.logo {
+    order: 1;
+}
+
+.search {
+    order: 2;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    order: 3;
+}
+
+.button {
+    font: 16 px arial, sans-serif;
+    line-height: 34px;
+    color: #656565;
+    margin: 25px 8px;
+    width: 150px;
+    height: 35px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.button:hover {
+    color: #353535;
+    border: 1px solid #656565;
+}
+
+.search-box {
+    font: 16 px arial, sans-serif;
+    line-height: 34px;
+    border-radius: 25px;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    height: 34px;
+    width: 550px;
+}
+
+.search-box:hover {
+    box-shadow: 0 0 8px 0 #cccccc;
+}
