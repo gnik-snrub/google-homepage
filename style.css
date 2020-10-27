@@ -90,6 +90,9 @@
     padding-top: 8px;
 }
 
+.ul:hover {
+    text-decoration: underline;
+}
 .header-right {
     display: flex;
     justify-content: flex-end;
@@ -157,6 +160,11 @@ li {
 hr {
     background-color: #e7e7e7;
     border: 1px solid #e7e7e7;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
 }
 
 .left {
